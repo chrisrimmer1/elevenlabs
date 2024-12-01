@@ -16,9 +16,14 @@
         }
         elevenlabs-convai {
             width: 100%;
-            max-width: 600px; /* Set max width to control widget size */
-            height: 400px; /* Set a fixed height */
-            position: relative; /* Override default floating position */
+            max-width: 600px; /* Adjust as needed */
+            height: auto;
+            position: static !important; /* Override default floating behavior */
+            margin: 0 auto;
+        }
+        .convai-widget-wrapper {
+            position: static !important; /* Override the widget's wrapper default */
+            margin: 0 auto;
         }
     </style>
 </head>
